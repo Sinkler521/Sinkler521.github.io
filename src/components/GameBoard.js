@@ -31,7 +31,7 @@ function GameBoard(props) {
             <Header changeThemeColor={handleChangeThemeColor} newGame={newGame} turn={currentPlayer} winner={winner}/>
             <section>
                 <div className="row xl-mt-5">
-                    <div className="col xl-mt-5"></div>
+                    <div className="col xl-mt-5 p-0"></div>
                 </div>
                 <div className="row">
                     <div className="col d-flex justify-content-center align-items-center">

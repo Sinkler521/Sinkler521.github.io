@@ -1,5 +1,5 @@
 import {useSelector} from "react-redux";
-import {Timer} from './Timer.js'
+import {ConnectedTimer} from './Timer.js'
 
 export function Header(props) {
 
@@ -27,7 +27,7 @@ export function Header(props) {
                         <div
                             className="col-xl-3 col-lg-3 col-md-3 col-sm-12 align-items-center d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column">
                             <span
-                                className="text-light text-decoration-none mt-xl-0 mt-lg-0 mt-md-0 mt-sm-2 mt-2 mb-xl-0 mb-lg-0 mb-md-0 mb-sm-2 mb-2"><Timer/></span>
+                                className="text-light text-decoration-none mt-xl-0 mt-lg-0 mt-md-0 mt-sm-2 mt-2 mb-xl-0 mb-lg-0 mb-md-0 mb-sm-2 mb-2"><ConnectedTimer/></span>
                             <button onClick={props.newGame} onTouchEnd={props.newGame}
                                     className="btn btn-sm btn-light shadow-sm fw-bold ms-lg-4 ms-md-0 ms-sm-0 d-xl-block d-lg-block d-md-block d-sm-none d-none">Restart
                             </button>
