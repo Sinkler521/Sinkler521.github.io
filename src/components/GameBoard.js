@@ -33,10 +33,10 @@ function GameBoard(props) {
                 <div className="row xl-mt-5">
                     <div className="col xl-mt-5 p-0"></div>
                 </div>
-                <div className="row">
-                    <div className="col d-flex justify-content-center align-items-center">
-                        <div className="game_wrap">
-                            <div className="game_board">
+                <div className="row ps-0 pe-0 ms-0 me-0">
+                    <div className="col d-flex justify-content-center align-items-center ps-0 pe-0 ms-0 me-0">
+                        <div className="game_wrap ps-0 pe-0 ms-0 me-0">
+                            <div className="game_board ps-0 pe-0 ms-0 me-0">
                                 {tiles.map((tile) => (
                                     <ConnectedTile key={tile.id} tile={tile} nextTurn={nextTurn}/>
                                 ))}
