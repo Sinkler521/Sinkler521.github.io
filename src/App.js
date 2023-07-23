@@ -5,7 +5,7 @@ import {selectTile, matchTiles} from "./redux/actions/gameActions.js";
 
 function App() {
   return (
-      <div className="App container-fluid">
+      <div className="App container-fluid ps-0 pe-0 ms-0 me-0">
         <ConnectedGameBoard />
       </div>
   );
