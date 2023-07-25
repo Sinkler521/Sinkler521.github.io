@@ -13,7 +13,7 @@ export function Header(props) {
                 <div className="container-fluid">
                     <div className="row w-100 m-0 p-0">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
-                            <span className="navbar-brand fw-bolder text-light">Guesstiles game</span>
+                            <span className="navbar-brand fw-bolder" style={{color: '#3a5169'}}>Guesstiles game</span>
                         </div>
                         <div
                             className="col-xl-3 col-lg-3 col-md-3 col-sm-12 text-center d-flex align-items-center justify-content-evenly">
