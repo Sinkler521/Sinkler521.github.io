@@ -94,9 +94,6 @@ const mapTileDispatchToProps = (dispatch) => {
         matchTiles: () => dispatch(matchTiles()),
         checkWin: () => dispatch(checkWin()),
         nextTurn: () => dispatch(nextTurn()),
-        updateScorePlayerOne: () => dispatch(updateScorePlayerOne()),
-        updateScorePlayerTwo: () => dispatch(updateScorePlayerTwo()),
-        resetSelectedTiles: () => dispatch(resetSelectedTiles()),
     };
 };
 
